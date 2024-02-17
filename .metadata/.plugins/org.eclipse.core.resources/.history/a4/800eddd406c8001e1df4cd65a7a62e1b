@@ -1,0 +1,40 @@
+package qedge_class_examples;
+
+import java.util.Scanner;
+
+public class Palindrome_number_within_range {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the lower range");
+		int num=sc.nextInt();
+		System.out.println("enter the higher range");
+		int b=sc.nextInt();
+		int lol=num;
+		
+		while(lol<=b) {
+			int temp=lol;
+			int rev=0;
+			while(lol>0) {
+				int factor=0;
+				int rem=lol%10;
+				rev=rev*10+rem;
+				lol=lol/10;
+				factor++;
+			}
+			if(rev==temp) {
+				System.out.println(lol+" is prime number");
+				
+			}else {
+				System.out.println(lol+" is not a prime number");
+			}
+			
+			
+			System.out.println("===========");
+			
+			lol++;
+		}
+		sc.close();
+	}
+
+}

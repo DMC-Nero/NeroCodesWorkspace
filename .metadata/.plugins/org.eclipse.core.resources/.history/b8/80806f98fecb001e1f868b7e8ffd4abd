@@ -1,0 +1,11 @@
+package projects;
+
+public class Exam {
+	public static void main(String[] args) {
+		String b = null;
+		Exam a = new Exam();
+		System.out.println("address of a" + a);
+		System.out.println(b);
+	}
+
+}

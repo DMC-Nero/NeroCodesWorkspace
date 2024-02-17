@@ -1,0 +1,11 @@
+package projects;
+
+public class Exam {
+
+	public static void main(String[] args) {
+		double i=3.0;
+		double j=4.0;
+		double lol=Math.pow(i, j);
+	}
+
+}

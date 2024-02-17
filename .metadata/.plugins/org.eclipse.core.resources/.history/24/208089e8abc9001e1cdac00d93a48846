@@ -1,0 +1,13 @@
+package projects;
+
+public class Exam {
+
+	public static void main(String[] args) {
+		int i=123456;
+		String arr=Integer.toString(i);
+		String lol=arr.length();
+		int j=Integer.valueOf(arr);
+		System.out.println(arr);
+	}
+
+}

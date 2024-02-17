@@ -1,0 +1,10 @@
+package qedge_class_examples;
+
+public class Prime_using_brake {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

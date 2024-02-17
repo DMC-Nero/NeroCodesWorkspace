@@ -1,0 +1,18 @@
+package qedge_document_simple_exercises;
+
+public class Q_22_ExtractDigits {
+
+	public static void main(String[] args) {
+		int i=1234;
+		int count=0;
+		while(i>0) {
+			int rem=i%10;
+			i=i/10;
+			count++;
+		}
+		System.out.println(count);
+		
+		
+	}
+
+}

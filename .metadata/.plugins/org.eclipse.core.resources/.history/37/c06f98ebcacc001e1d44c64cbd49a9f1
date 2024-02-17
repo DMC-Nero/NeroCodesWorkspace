@@ -1,0 +1,21 @@
+package qedge_class_examples;
+
+import java.util.Scanner;
+
+public class Array_SumOfValues {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int[] arr = new int[10];
+		int i = 0;
+		while (i < arr.length) {
+			System.out.println("enter the number");
+
+			arr[i] = sc.nextInt();
+			i++;
+
+		}
+		sc.close();
+	}
+
+}

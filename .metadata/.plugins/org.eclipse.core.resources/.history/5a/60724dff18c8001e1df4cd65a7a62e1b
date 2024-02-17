@@ -1,0 +1,23 @@
+package qedge_class_examples;
+
+public class Perfect_number {
+
+	
+					//6 is a perfect number because 1 + 2 + 3 = 6.
+	
+	public static void main(String[] args) {
+		int i=8;
+		int a=1;
+		int b=i;
+		while(a<i) {
+			int rem=0;
+			if(i%a==0) {
+				System.out.println(a+" is a factor")
+				
+			}
+			a++;
+		}
+			
+	}
+
+}

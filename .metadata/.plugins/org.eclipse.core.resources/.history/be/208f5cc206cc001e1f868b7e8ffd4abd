@@ -1,0 +1,16 @@
+package qedge_document_simple_exercises;
+
+public class SumOfDigits_20 {
+
+	public static void main(String[] args) {
+		int a=123;
+		int an=0;
+		while(a>0) {
+			int rem=a%10;
+			an= rem + an;
+			a=a/10;
+		}
+		System.out.println(an);
+	}
+
+}
