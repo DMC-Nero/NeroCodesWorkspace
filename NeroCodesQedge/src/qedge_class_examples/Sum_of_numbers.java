@@ -17,7 +17,7 @@ public class Sum_of_numbers {
 			sum = sum + rem;
 			num = num / 10;
 		}
-		System.out.println("The addition of the number "+sum);
+		System.out.println("The addition of the number " + sum);
 
 		sc.close();
 	}

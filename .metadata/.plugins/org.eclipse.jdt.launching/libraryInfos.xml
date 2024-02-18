@@ -25,7 +25,7 @@
     </libraryInfo>
     <libraryInfo home="C:\Program Files\Java\jdk-21" version="21.0.1"/>
     <libraryInfo home="/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home" version="13.0.2"/>
-    <libraryInfo home="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home" version="1.8.0_391">
+    <libraryInfo home="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home" version="1.8.0_401">
         <bootpath>
             <entry path="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/resources.jar"/>
             <entry path="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/rt.jar"/>
