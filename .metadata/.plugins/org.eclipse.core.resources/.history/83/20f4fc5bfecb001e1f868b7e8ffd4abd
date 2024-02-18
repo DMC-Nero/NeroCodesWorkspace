@@ -1,9 +1,0 @@
-package projects;
-
-public class Exam {
-	public static void main(String[] args) {
-		String a =new String();
-		System.out.println("address of a"+a);
-	}
-
-}
