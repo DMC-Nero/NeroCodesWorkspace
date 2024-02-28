@@ -1,5 +1,4 @@
 package projects;
-public class Exam {
-
+public class Exam{
 	
 }
