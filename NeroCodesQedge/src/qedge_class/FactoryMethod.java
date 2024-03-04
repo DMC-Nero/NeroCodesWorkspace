@@ -1,5 +1,4 @@
 package qedge_class;
-//hello
 public class FactoryMethod {
 
 	public static void main(String[] args) {
