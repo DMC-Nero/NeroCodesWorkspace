@@ -14,6 +14,7 @@ public class StaticNonStatic_Block {
 		BlockStudent s2 = new BlockStudent(2,"jane");
 		
 		System.out.println("main end");
+		
 	}
 }
 

@@ -1,11 +1,8 @@
 package qedge_document_simple_exercises;
 
 public class Q_29_SumOfNumberRecursion {
-
 	public static void main(String[] args) {
 		int n = 123;
-//		Q_29_SumOfNumberRecursion obj = new Q_29_SumOfNumberRecursion();
-//		int a = obj.add(n);
 		Q_29_SumOfNumberRecursion obj = new Q_29_SumOfNumberRecursion();
 		int a = obj.add(n);
 		
