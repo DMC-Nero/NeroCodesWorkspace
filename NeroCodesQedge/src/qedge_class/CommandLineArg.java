@@ -9,6 +9,7 @@ public class CommandLineArg {
 			System.out.println(arg);
 		}
 	}
+	
 }
 
 //	>javac -d . Test.java
