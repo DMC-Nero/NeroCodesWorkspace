@@ -1,0 +1,9 @@
+package qedge_document_simple_exercises;
+
+public class Q_29_SumOfNumberRecursion {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

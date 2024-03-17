@@ -1,0 +1,22 @@
+package qedge_document_simple_exercises;
+
+/* 123
+a=3
+12
+3+2
+1 */
+
+public class Q_28_SumOfDigits {
+
+	public static void main(String[] args) {
+		int a=1234;
+		int res = 0;
+		while(a>0) {
+			int b = a%10;
+			res = res + b;
+			a = a/10;
+		}
+		System.out.println(res);
+	}
+
+}

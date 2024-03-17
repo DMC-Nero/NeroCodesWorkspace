@@ -1,0 +1,10 @@
+package qedge_document_simple_exercises;
+
+public class Q_28_SumOfDigits {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
