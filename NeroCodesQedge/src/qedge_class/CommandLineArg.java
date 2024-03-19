@@ -12,7 +12,7 @@ public class CommandLineArg {
 			System.out.println(arg);
 		} */
 		
-		//performing arithemetic operation on command line argument
+		//performing arithmetic operation on command line argument
 		if( args.length >=2) {
 			int x = Integer.parseInt(args[0]);
 			int y = Integer.parseInt(args[1]);
