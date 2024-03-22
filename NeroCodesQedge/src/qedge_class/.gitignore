@@ -85,3 +85,7 @@
 /AutoBoxing_Unboxing.class
 /ParsingValue.class
 /StringConstuctor.class
+/StringPool.class
+/StringConcat.class
+/StringIntern.class
+/Pooling.class
