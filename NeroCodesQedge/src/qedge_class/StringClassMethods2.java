@@ -21,13 +21,13 @@ public class StringClassMethods2 {
 		int age = 25;
 		boolean isSingle = true;
 		
-		System.out.println("person name si "+ name);
+		System.out.println("person name is "+ name);
 		
-		String formatedString = String.format("Person name is %s, age is %d, is Single %b"+name,age,isSingle);
+		String formatedString = String.format("Person name is %s, age is %d, is Single %b",name,age,isSingle);
 		System.out.println(formatedString);
 		
 		String s4 = "Persons name is %s, age is %d, is Single %b";
-		String resString = s4.format(name,age,isSingle );
+		String resString = s4.formatted(name,age,isSingle );
 		System.out.println(resString);
 		
 		byte[] barr = new byte[] {65,66,67};
@@ -51,7 +51,7 @@ public class StringClassMethods2 {
 		
 		System.out.println(hashCode);
 		
-		//Multiline String [ Java 9	]
+		// Multiline String [ Java 9	]
 		String m1String = """
 				Java is
 				Awesom""";
@@ -59,7 +59,7 @@ public class StringClassMethods2 {
 		
 		System.out.println(m1String.indent(5));
 		
-		String s1String = "helloworls";
+		String s1String = "helloworld";
 		System.out.println(s1String);
 		
 		System.out.println(s1String.indent(5));
@@ -81,14 +81,8 @@ public class StringClassMethods2 {
 		System.out.println(s8.isBlank());
 		System.out.println(s8.isEmpty());
 		
-		
-		
-		
-		
-		
-		
-		
-		
+		String message = String.join("-","Java","is","cool");	//Java-is-cool
+		System.out.println(message);
 		
 	}
 
