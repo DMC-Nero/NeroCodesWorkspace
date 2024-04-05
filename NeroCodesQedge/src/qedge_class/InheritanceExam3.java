@@ -22,6 +22,8 @@ public class InheritanceExam3 {
 		st.read();
 		st.hashCode();
 		st.write();
+		
+		sc.close();
 	}
 
 }
