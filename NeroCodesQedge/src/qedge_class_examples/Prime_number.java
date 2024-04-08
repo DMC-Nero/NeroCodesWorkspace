@@ -12,16 +12,16 @@ public class Prime_number {
 		int b = sc.nextInt();
 		int x = a;
 		while (x <= b) {
-			int y = 1;
+			int y = 2;
 			int factor = 0;
-			while (y <= x) {
+			while (y < x) {
 				int rem = x % y;
 				if (rem == 0) {
 					factor++;
 				}
 				y++;
 			}
-			if (factor == 2) {
+			if (factor == 0) {
 				System.out.println(x + " is prime");
 			} else {
 				System.out.println(x + " is not prime");
