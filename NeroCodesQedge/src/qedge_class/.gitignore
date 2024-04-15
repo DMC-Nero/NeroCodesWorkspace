@@ -121,3 +121,10 @@
 /InterfaceExamples.class
 /Intf1.class
 /IntfSample.class
+/StaticNestedClass.class
+/Outer$StaticNested.class
+/Outer.class
+/nonStaticNestedClass.class
+/OuterNon$Inner.class
+/OuterNon.class
+/OuterNon$InnerNon.class
