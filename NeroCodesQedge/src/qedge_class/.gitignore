@@ -150,3 +150,7 @@
 /MBAStudentType.class
 /MTechStudentType.class
 /StudentType.class
+/ExceptionHandlingThrowable.class
+/DivisionException.class
+/ThrowKeyword.class
+/InvalidAgeException.class
