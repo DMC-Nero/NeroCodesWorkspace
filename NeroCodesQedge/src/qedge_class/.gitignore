@@ -154,3 +154,7 @@
 /DivisionException.class
 /ThrowKeyword.class
 /InvalidAgeException.class
+/MultiThreading_Sequential.class
+/MultThrExa.class
+/MultiThreading_Paraller.class
+/TaskThr.class
