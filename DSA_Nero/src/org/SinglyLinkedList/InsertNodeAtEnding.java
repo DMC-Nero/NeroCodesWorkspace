@@ -38,7 +38,7 @@ public class InsertNodeAtEnding {
 			return;
 		}
 		ListNode current = head;
-		while(null != current.next) {
+		while(current.next != null) {
 			current = current.next;
 		}
 		current.next = temp;

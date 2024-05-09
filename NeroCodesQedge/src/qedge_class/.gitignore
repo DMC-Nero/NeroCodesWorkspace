@@ -158,3 +158,10 @@
 /MultThrExa.class
 /MultiThreading_Paraller.class
 /TaskThr.class
+/ThreadAPI.class
+/ThreadAPI$1.class
+/threadSleep.class
+/ThreadJoin.class
+/TaskJoin.class
+/ThreadVolatile.class
+/ThreadVolProcessor.class
