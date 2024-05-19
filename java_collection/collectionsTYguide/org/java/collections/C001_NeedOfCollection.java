@@ -10,13 +10,18 @@ public class C001_NeedOfCollection {
 		// 3. Ready made APIs support is not available in array
 		
 		Student[] student = new Student[10];
-		student[0] = new Student();
-		student[2] = new Student();
+		student[0] = new Student(111);
+		student[1] = new Student(222,"nero");
+		student[2] = new Student(333,"hero", "java");
 		// student[3] = new Book();		--> error  // array can store homogeneous only
+		
+		for(Student x : student) {
+			System.out.println(x);
+		}
 		
 		Object[] objects = new Object[10];
 		objects[0] = new Object();
-		objects[1] = new Student();		// --> Student is sub-type of object class
+		objects[1] = new Student(111);		// --> Student is sub-type of object class
 		objects[2] = new Book();		// --> Book is a sub-type of object class
 		
 	/*
@@ -36,5 +41,23 @@ class Book {
 }
 
 class Student {
+	int sid;
+	String sname;
+	String course;
+	public Student(int sid) {
+		this.sid = sid;
+	}
+	public Student(int sid, String sname) {
+		this.sid = sid;
+		this.sname = sname;
+	}
+	public Student(int sid, String sname, String course) {
+		this.sid = sid;
+		this.sname = sname;
+		this.course = course;
+	}
+	public String toString() {
+		return "Student [sid=" + sid + ", sname=" + sname + ", course="+ course +"]";
+	}
 	
 }
