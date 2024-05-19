@@ -33,6 +33,7 @@ public class MiddleNode {
 		head = temp;
 	}
 	// --------------------------------------------------------------------------------------------
+
 	public ListNode middleNode() { 		//  1 --> 2 --> 3 --> 4--> 5 --> 6 --> 7 --> 8 --> null
 		if(head == null) {
 			return null;
