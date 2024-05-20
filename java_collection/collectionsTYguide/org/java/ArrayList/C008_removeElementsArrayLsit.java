@@ -8,7 +8,7 @@ import java.util.List;
 	2.	How to remove  elements from an ArrayList by using the removeAll() method.
 	3.	How to clear elements from an ArrayList by using the clear() method.
  */
-public class C0008_removeElementsArrayLsit {
+public class C008_removeElementsArrayLsit {
 
 	public static void main(String[] args) {
 		List<String> fruits = new ArrayList<>();	// index
@@ -18,6 +18,7 @@ public class C0008_removeElementsArrayLsit {
 		fruits.add("Orange");						// 3
 		fruits.add("Pineapple");					// 4
 		fruits.add("Grapes");						// 5
+		
 //	1. removing element my using remove(index) method by passing argument as index.
 		System.out.println(" -> remove{index)");
 		System.out.println("==================");
