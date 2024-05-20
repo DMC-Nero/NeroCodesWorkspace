@@ -19,7 +19,7 @@ public class C009_IteratingOverArrayList {
 			System.out.println(course);
 		}
 	// basic loop with iterator
-		for( Iterator iterator = courses.iterator(); iterator.hasNext();) {
+		for( Iterator<String> iterator = courses.iterator(); iterator.hasNext();) {
 			String course = (String) iterator.next();
 			System.out.println(course);
 		}
