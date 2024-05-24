@@ -9,7 +9,7 @@ import java.util.LinkedList;
  		// How to get all the elements from LinkedList.
  		
  */
-public class RetrieveLinkedListElements {
+public class C012_RetrieveLinkedListElements {
 
 	public static void main(String[] args) {
 		LinkedList<String> fruits = new LinkedList<>();
