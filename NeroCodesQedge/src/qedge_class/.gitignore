@@ -190,3 +190,10 @@
 /GenericsExample.class
 /failFast_failSafe.class
 /failFast_failSafe$1.class
+/PipedInputStream_pipedOutputStream.class
+/PipedInputStream_pipedOutputStream$1.class
+/PipedInputStream_pipedOutputStream$2.class
+/SequenceInputStream.class
+/SequenceInputStreamDemo.class
+/Bis_Bos.class
+/FileReaderDemo.class
