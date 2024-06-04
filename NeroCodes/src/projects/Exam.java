@@ -1,33 +1,35 @@
 package projects;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Exam {
-	public static void main(String[] args) throws IOException {
-		
-		String data = "java world";
-		byte[] barr = data.getBytes();
-		
-		// ByteArrayInputStream
-		ByteArrayInputStream bais = new ByteArrayInputStream(barr);
-		
-		int byteRead = 0;
-		while( (byteRead = bais.read()) != -1) {
-			System.out.print((char) byteRead);
+	public static void main(String[] args) {
+		List<Integer> list = number(212);
+		System.out.println(list);
+	}
+	
+	private static int sumOf(int x) {
+		int sum = 0;
+		while(x > 0) {
+			int rem = x%10;
+			sum = sum + rem;
+			x = x/10;
 		}
-		//////////////////
-		System.out.println();
 		
-		// ByteArrayOutputStream 
-		ByteArrayOutputStream baos = new ByteArrayOutputStream();
-		baos.write(97);
-		baos.write(98);
-		baos.write(99);
-		baos.write(100);
+		return sum;
+	}
+	
+	private static List number(int num) {
 		
-		System.out.println(baos.toString());
+		List<Integer> list = new ArrayList<>();
+		
+		for(int i =0 ; i< num ;i++) {
+			if( (i + sumOf(i)) == num) {
+				list.add(i);
+			}
+		}
+		return list;
 	}
 }
 
