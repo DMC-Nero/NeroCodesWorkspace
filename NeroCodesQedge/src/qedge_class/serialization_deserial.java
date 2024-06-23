@@ -20,7 +20,7 @@ public class serialization_deserial {
 		StudentSer st1 = new StudentSer(111,"jack" , 25);
 		oos.writeObject(st1);
 		
-		// Deserializaiton 
+		// Deserialization 
 		System.out.println("==========Deserializing=============");
 		FileInputStream fis = new FileInputStream(file);
 		ObjectInputStream ois = new ObjectInputStream(fis);
