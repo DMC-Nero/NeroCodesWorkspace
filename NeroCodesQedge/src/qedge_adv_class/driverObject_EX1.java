@@ -7,7 +7,7 @@ import java.sql.*;
 
 import java.util.Properties;
 
-public class driverObjectEX1 {
+public class driverObject_EX1 {
 
 	public static void main(String[] args) throws SQLException {
 		java.sql.Driver d1 = new com.mysql.cj.jdbc.Driver();
