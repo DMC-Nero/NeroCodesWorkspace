@@ -2,7 +2,7 @@ package qedge_adv_class;
 
 import java.io.*;
 import java.sql.*;
-import java.util.Properties;
+import java.util.*;
 
 public class ExternalizingProps_EX3 {
 
@@ -17,7 +17,22 @@ public class ExternalizingProps_EX3 {
 		
 		Connection conn = DriverManager.getConnection(url,user,password);
 		System.out.println(conn);
-	
+		
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter the sql statement");
+		String sql = sc.nextLine();
+		
+		Statement st = conn.createStatement();
+		
+		boolean flag = st.execute(sql);
+		
+		if( flag ) {
+			System.out.println("ResultSet produced");
+		} else {
+			System.out.println("Update count produced");
+		}
+		
 	}
 
 }

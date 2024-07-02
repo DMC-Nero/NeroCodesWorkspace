@@ -15,7 +15,7 @@ public class ResultSet_EX5 {
 		String user = props.getProperty("db.user");
 		String password = props.getProperty("db.password");
 		
-		Connection conn = DriverManager.getConnection(url,user,password);
+		Connection conn = DriverManager.getConnection(url,user,password); 
 //		System.out.println(conn);
 		
 		String sql = "select * from student";
