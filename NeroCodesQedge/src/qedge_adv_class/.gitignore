@@ -12,3 +12,6 @@
 /DriverManager_EX2.class
 /ExternalizingProps_EX3.class
 /ResultSet_EX5.class
+/jdbc_transcation.class
+/jdbc_excptionHandling.class
+/jdbc_rowSetFactory.class
